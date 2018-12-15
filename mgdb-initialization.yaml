@@ -4,12 +4,12 @@ metadata:
   name: mgoentrypoint
   namespace: dbdemo
 spec:
-  version: 3.4
+  version: "3.4"
   doNotPause: true
   storage:
     storageClassName: "standard"
     accessModes:
-      - ReadWriteOnce
+    - ReadWriteOnce
     resources:
       requests:
         storage: 50Mi
